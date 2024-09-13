@@ -1,0 +1,128 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(24, 24, 26);
+}
+
+header {
+    background-color: #67ea7b;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(109, 6, 235, 0.693);
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #19191c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    /* background: url('    ') no-repeat center center/cover; */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000000;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff6b6b;
+    color: rgb(245, 250, 239);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(143, 4, 111, 0.693);
+}
+
+.login-section, .signup-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.login-section form, .signup-section form {
+    display: inline-block;
+    text-align: left;
+}
+
+.login-section label, .signup-section label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-section input, .signup-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+.products-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.products-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgb(3, 246, 39);
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+}
